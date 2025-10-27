@@ -52,11 +52,11 @@ box-sizing: border-box;
     height: 70px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 50%;
-    background-color: white;
+    background:radial-gradient(circle,white,yellow);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: 0 0 180px 180px rgba(255, 255, 0, 0.3);
+    box-shadow: 0 0 175px 175px rgba(255, 255, 0, 0.3);
 }
 
 .venus{
@@ -79,14 +79,14 @@ box-sizing: border-box;
     top: -5%;
     left:50%;
     z-index: 1;
-    box-shadow: 0 0 5px 5px rgba(126, 126, 126,0.5);
+    box-shadow: 0 0 5px 5px rgba(255, 255, 180,0.5);
 }
 .earth{
     position: absolute;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color:rgb(0,58,112);
+    background:linear-gradient(to right,rgb(0,58,112) 50%,rgb(201, 175, 88));
     top:15%;
     left:10%;
     z-index: 1;
